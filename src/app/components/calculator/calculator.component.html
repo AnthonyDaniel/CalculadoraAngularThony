@@ -1,0 +1,106 @@
+<div class="container-fluid">
+    <div class="row row100">
+        <div class="col-12 col35 p-0">
+            <div class="container-fluid">
+                <div class="row row100">
+                    <div class="col-12 px-2 col33">
+
+                    </div>
+                    <div class="col-12 px-2 text-right">
+                        <h1 class="textUp">{{vistaResultado}}</h1>
+                    </div>
+                    <div class="col-12 px-2 text-right">
+                        <h1 class="textDown">{{resultado}}</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col13 p-0">
+            <div class="container-fluid">
+                <div class="row row100">
+                    <div class="col-3 p-0">
+                        <button type="button" class="btn btn-light btnBF negrita" (click)="limpiar()">C</button>
+                    </div>
+                    <div class="col-3 p-0">
+                        <button type="button" class="btn btn-light btnBF" (click)="division()"><i class="fas fa-divide"></i></button>
+                    </div>
+                    <div class="col-3 p-0">
+                        <button type="button" class="btn btn-light btnBF" (click)="multiplicacion()"><i class="fas fa-times"></i></button>
+                    </div>
+                    <div class="col-3 p-0">
+                        <button type="button" class="btn btn-light btnBF" (click)="eliminar()"><i class="fas fa-backspace"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col13 p-0">
+            <div class="container-fluid">
+                <div class="row row100">
+                    <div class="col-3 p-0">
+                        <button type="button" class="btn btn-light btnNumbers" (click)="tocarNumero('7')">7</button>
+                    </div>
+                    <div class="col-3 p-0">
+                        <button type="button" class="btn btn-light btnNumbers" (click)="tocarNumero('8')">8</button>
+                    </div>
+                    <div class="col-3 p-0">
+                        <button type="button" class="btn btn-light btnNumbers" (click)="tocarNumero('9')">9</button>
+                    </div>
+                    <div class="col-3 p-0">
+                        <button type="button" class="btn btn-light btnBF" (click)="resta()"><i class="fas fa-minus"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col13 p-0">
+            <div class="container-fluid">
+                <div class="row row100">
+                    <div class="col-3 p-0">
+                        <button type="button" class="btn btn-light btnNumbers" (click)="tocarNumero('4')">4</button>
+                    </div>
+                    <div class="col-3 p-0">
+                        <button type="button" class="btn btn-light btnNumbers" (click)="tocarNumero('5')">5</button>
+                    </div>
+                    <div class="col-3 p-0">
+                        <button type="button" class="btn btn-light btnNumbers" (click)="tocarNumero('6')">6</button>
+                    </div>
+                    <div class="col-3 p-0">
+                        <button type="button" class="btn btn-light btnBF" (click)="suma()"><i class="fas fa-plus"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12 col26 p-0">
+            <div class="container-fluid">
+                <div class="row row100">
+                    <div class="col-9 p-0">
+                        <div class="container-fluid">
+                            <div class="row row100">
+                                <div class="col-4 p-0">
+                                    <button type="button" class="btn btn-light btnNumbers" (click)="tocarNumero('1')">1</button>
+                                </div>
+                                <div class="col-4 p-0">
+                                    <button type="button" class="btn btn-light btnNumbers" (click)="tocarNumero('2')">2</button>
+                                </div>
+                                <div class="col-4 p-0">
+                                    <button type="button" class="btn btn-light btnNumbers" (click)="tocarNumero('3')">3</button>
+                                </div>
+                                <div class="col-4 p-0">
+                                    <button type="button" class="btn btn-light btnNumbers" (click)="porcentaje()">%</button>
+                                </div>
+                                <div class="col-4 p-0">
+                                    <button type="button" class="btn btn-light btnNumbers" (click)="tocarNumeroCero()">0</button>
+                                </div>
+                                <div class="col-4 p-0">
+                                    <button type="button" class="btn btn-light btnNumbers" (click)="coma()">,</button>
+                                </div>
+                            </div>
+                        </div>  
+                    </div>
+                    <div class="col-3 p-0">
+                        <button type="button" class="btn btn-light btnEquals" (click)="total(true)"><i class="fas fa-equals"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

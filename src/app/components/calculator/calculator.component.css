@@ -1,0 +1,103 @@
+.col35{
+    height: 35%;
+}
+
+.col33{
+    height: 33.331%;
+}
+.col13{
+    height: 13%;
+}
+.col26{
+    height: 26%;
+}
+.row100{
+    height: 100% !important;
+}
+
+.negrita{
+    font-weight: bold;
+}
+
+@media (min-width: 0px){
+    .btnBF{
+        width: 100%;
+        height: 100%;
+        border: solid 1px gainsboro;
+        border-radius: 0px;
+        color: rgba(0, 68, 255, 0.836);
+        font-size: 5.5vw;
+    }
+    
+    .btnEquals{
+        width: 100%;
+        height: 100%;
+        border: solid 1px gainsboro;
+        border-radius: 0px;
+        background-color: rgba(0, 68, 255, 0.836);
+        color:white;
+        font-size: 5.5vw;
+    }
+    
+    .btnNumbers{
+        width: 100%;
+        height: 100%;
+        border: solid 1px gainsboro;
+        border-radius: 0px;
+        background-color: rgba(255, 255, 255);
+        color:rgb(36, 36, 36);
+        font-size: 5.5vw; 
+    }
+    .textUp{
+        color:rgb(36, 36, 36);
+        font-size: 10vw; 
+    }
+    
+    .textDown{
+        color:rgb(36, 36, 36);
+        font-size: 7.5vw; 
+    }
+
+}
+
+@media (min-width: 1200px){
+    .btnBF{
+        width: 100%;
+        height: 100%;
+        border: solid 1px gainsboro;
+        border-radius: 0px;
+        color: rgba(0, 68, 255, 0.836);
+        font-size: 4vw;
+    }
+    
+    .btnEquals{
+        width: 100%;
+        height: 100%;
+        border: solid 1px gainsboro;
+        border-radius: 0px;
+        background-color: rgba(0, 68, 255, 0.836);
+        color:white;
+        font-size: 4vw;
+    }
+    
+    .btnNumbers{
+        width: 100%;
+        height: 100%;
+        border: solid 1px gainsboro;
+        border-radius: 0px;
+        background-color: rgba(255, 255, 255);
+        color:rgb(36, 36, 36);
+        font-size: 4vw; 
+    }
+    .textUp{
+        color:rgb(36, 36, 36);
+        font-size: 6vw; 
+    }
+    
+    .textDown{
+        color:rgb(36, 36, 36);
+        font-size: 4vw; 
+    }
+}
+
+
